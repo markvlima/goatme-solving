@@ -19,12 +19,11 @@ Cypress.Commands.add('console', {
 
 //Login
 Cypress.Commands.add('login', (user, password) => {
-    // cy.visit('https://deploy-preview-339--lucid-jepsen-ae3f5a.netlify.com')
-    cy.visit('https://tic.enesolucoes.com.br/sua-conta')
-    cy.get('#username')
-        .type(user)
-    cy.get('#password')
-        .type(password+'{enter}')
+    cy.visit('https://atleta.teste.goatme.app/login')
+    cy.get("#app > section > div > div.form-login > form > input.jrjNjP.hoJRHx")
+      .type(user)
+    cy.get("#app > section > div > div.form-login > form > input.jrjNjP.cqDmHF.llwqTp")
+      .type(password+'{enter}')
 })
 
 //Convert csv to Json

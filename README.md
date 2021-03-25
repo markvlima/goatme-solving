@@ -1,4 +1,4 @@
-# algar-portal-clientes-tests
+# goatme-solving
 
 <p align="center">
   <a href="https://on.cypress.io">Cypress Documentation</a> |
@@ -10,7 +10,7 @@
 [![npm version](https://badge.fury.io/js/cypress.svg)](https://badge.fury.io/js/cypress)
 [![Cypress.io tests](https://img.shields.io/badge/cypress.io-tests-green.svg?style=flat-square)](https://cypress.io)
 
-Install Cypress for Mac, Linux, or Windows, then [get started](https://docs.cypress.io/guides/getting-started/installing-cypress.html).
+Instale o Cypress no Mac, Linux, ou Windows, para isso [clique aqui](https://docs.cypress.io/guides/getting-started/installing-cypress.html).
 
 ```bash
 npm install cypress --save-dev
