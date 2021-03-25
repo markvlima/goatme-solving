@@ -5,6 +5,8 @@
   <a href="https://bitbucket.org/planetarepos/portal-de-clientes-frontend/src/master/">Portal de Clientes</a>
 </p>
 
+Este projeto visa solucionar um test case de cadastro de usuário na plataforma GoatMe. Além do cadastro, foram criadas rorinas para exclusão da conta (evitar duplicidade preservando a massa), função genérica de login, mock dos usuário para cadastro e uma checagem da acessibilidade na página de Login.
+
 ## Installing
 
 [![npm version](https://badge.fury.io/js/cypress.svg)](https://badge.fury.io/js/cypress)
